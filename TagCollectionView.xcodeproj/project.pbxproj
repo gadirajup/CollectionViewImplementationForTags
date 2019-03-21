@@ -15,6 +15,8 @@
 		A44F7E20224328F700E48FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44F7E1E224328F700E48FE9 /* LaunchScreen.storyboard */; };
 		A44F7E2B224328F700E48FE9 /* TagCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F7E2A224328F700E48FE9 /* TagCollectionViewTests.swift */; };
 		A44F7E36224328F700E48FE9 /* TagCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F7E35224328F700E48FE9 /* TagCollectionViewUITests.swift */; };
+		A44F7E4922432D2F00E48FE9 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F7E4722432D2F00E48FE9 /* TagCollectionViewCell.swift */; };
+		A44F7E4C22432F8400E48FE9 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F7E4B22432F8400E48FE9 /* Tag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A44F7E31224328F700E48FE9 /* TagCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44F7E35224328F700E48FE9 /* TagCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewUITests.swift; sourceTree = "<group>"; };
 		A44F7E37224328F700E48FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44F7E4722432D2F00E48FE9 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		A44F7E4B22432F8400E48FE9 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				A44F7E1E224328F700E48FE9 /* LaunchScreen.storyboard */,
 				A44F7E21224328F700E48FE9 /* Info.plist */,
 				A44F7E19224328F600E48FE9 /* TagCollectionView.xcdatamodeld */,
+				A44F7E4722432D2F00E48FE9 /* TagCollectionViewCell.swift */,
+				A44F7E4B22432F8400E48FE9 /* Tag.swift */,
 			);
 			path = TagCollectionView;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44F7E4C22432F8400E48FE9 /* Tag.swift in Sources */,
 				A44F7E15224328F600E48FE9 /* ViewController.swift in Sources */,
+				A44F7E4922432D2F00E48FE9 /* TagCollectionViewCell.swift in Sources */,
 				A44F7E1B224328F600E48FE9 /* TagCollectionView.xcdatamodeld in Sources */,
 				A44F7E13224328F600E48FE9 /* AppDelegate.swift in Sources */,
 			);
